@@ -1,0 +1,194 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\main\views.py", line 16, in main_page
+    return render_template("index.html")
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\jinja2\environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\jinja2\environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\jinja2\environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 17:57:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 17:57:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Открытие главной страницы
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\main\views.py", line 16, in main_page
+    return render_template("index.html")
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\jinja2\environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\jinja2\environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\jinja2\environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 17:57:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:root:Открытие главной страницы
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\main\views.py", line 16, in main_page
+    return render_template("index.html")
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\jinja2\environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\jinja2\environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\jinja2\environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\jinja2\loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 17:57:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:02:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:02:00] "GET /static/style.css HTTP/1.1" 200 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:02:04] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:02:12] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:02:16] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:02:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /post [POST]
+Traceback (most recent call last):
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\functions.py", line 11, in load_json_data
+    with open(path, 'r', encoding='UTF-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'posts.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\loader\views.py", line 25, in create_new_post_user
+    posts = functions.load_json_data(POST_PATH)
+  File "C:\Users\luba-\PycharmProjects\python_less12_HW\venv\functions.py", line 14, in load_json_data
+    raise DataJsonError
+exceptions.DataJsonError
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:02:33] "[35m[1mPOST /post HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:05:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:05:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:05:56] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:05:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:06:01] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:06:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:06:16] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:06:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:06:16] "GET /uploads/images/graf.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:06:19] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:06:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:06:50] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:06:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:06:50] "GET /uploads/images/акт%20снос.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:06:53] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:06:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:06:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:06:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:06:58] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:06:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:14] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:14] "GET /uploads/images/приказ%20снос.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:18] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:25] "GET /search?s=у HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:42] "GET /search?s=граф HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:42] "[36mGET /uploads/images/graf.jpg HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:07:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:08:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:08:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:08:26] "GET /search?s=у HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:08:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:08:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:08:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:08:35] "GET /search?s=граф HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:08:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:08:35] "[36mGET /uploads/images/graf.jpg HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:08:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:08:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:08:40] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:08:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:09:02] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:09:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:09:02] "GET /uploads/images/механизм%20переворота%20яиц.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:09:04] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:09:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:09:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 18:09:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
